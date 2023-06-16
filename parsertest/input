@@ -1,0 +1,45 @@
+clase Animal {
+var vel;
+var peso;
+Animal(var vel, var peso){
+vel = vel;
+peso = peso;
+}
+var calcvel(var vel){
+vel = 23 + 32;
+return vel;
+}
+var calcpeso(var peso, var vel){
+densidad = 23 - 23;
+peso = 32 + 12*densidad;
+return peso;
+}
+}
+
+clase Vehiculo {
+var peso;
+var tamanyo;
+Vehiculo(var peso, var tamanyo){
+peso = peso;
+tamanyo = tamanyo;
+}
+var getpeso(){
+return peso;
+}
+var getTamanyo(){
+return tamanyo;
+}
+}
+
+clase Auto her Vehiculo {
+var distRec;
+var velMax;
+Auto(var dist, var vel){
+distRec = dist;
+velMax = vel;
+}
+var tiempoMin(var dist){
+tMin = dist/velMax;
+return tMin;
+}
+}

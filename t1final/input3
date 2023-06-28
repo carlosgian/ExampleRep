@@ -1,0 +1,43 @@
+clase Vehiculo {
+	var peso;
+	var tamanyo;
+	Vehiculo(var peso, var tamanyo){
+		peso = peso;
+		tamanyo = tamanyo;
+	}
+	var getpeso(){
+		return peso;
+	}
+	var getTamanyo(){
+		return tamanyo;
+	}
+}
+
+clase Auto her Vehiculo {
+	var distRec;
+	var velMax;
+	var curVel;
+	Auto(var dist, var vel, var curVel){
+		distRec = dist;
+		velMax = vel;
+		curVel = curVel;
+	}
+	var tiempoMin(var dist){
+		curVel = 90;
+		tMin = dist/velMax;
+		return tMin;
+	}
+	var isTooFast(){
+		si curVel > 100 entonces
+			inicio
+			curVel = curVel - 10;
+			velMax = velMax - 10;
+			fin
+		sino curvel < 100 entonces
+			inicio
+			curvel = curvel + 10;
+			velMax = velMax + 10;
+			fin
+		return curVel;
+	}
+}
